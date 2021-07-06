@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.large-container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.cart-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.cart-info{
+    flex-basis: 25%;
+    /* padding: 10px; */
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+/* .cart-img{
+    width: 50%;
+} */
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-basis: 50%;
+    max-width: 400px; */
+}
+.cart-info img{
+    max-width: 50%;
+    /* padding: 50px 0; */
+}
+
+
+.cart-page{
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #740623;
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+/* td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+} */
+.cart-a{
+    color: #740623;
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.cart-product-price{
+    display: flex;
+    justify-content: flex-end;
+}
+.cart-product-price table{
+    border-top: 3px solid #740623;
+    width: 100%;
+    max-width: 390px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+
+@media only screen and (max-width:600px){
+    .cart-info p{
+        display: none;
+    }
+}
+
+
+
+
+.cart_quantity_button a {
+    background:#F0F0E9;
+    color: #696763;
+    display: inline-block;
+    font-size: 16px;
+    height: 28px;
+    overflow: hidden;
+    text-align: center;
+    width: 35px;
+    /* float: left; */
+    float: left;
+  }
+  
+  
+  .cart_quantity_input {
+    color: #696763;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    
+  }
+  
+  .cart_delete  {
+    display: block;
+    margin-right: -12px;
+    overflow: hidden;
+  }
+  
+  
+  .cart_delete a {
+    background:#F0F0E9;
+    color: #FFFFFF;
+    padding: 5px 7px;
+    font-size: 16px
+  }
+  
+  .cart_delete a:hover {
+    background:#FE980F
+  }
+  

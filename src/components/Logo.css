@@ -1,0 +1,13 @@
+.jokester_logo {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 90%;
+    object-fit: contain;
+    /* margin: 0 40px; */
+    margin-bottom: -px;
+    color: grey;
+  }
+  

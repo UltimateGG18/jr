@@ -1,0 +1,37 @@
+.slider-tabs {
+  height: 150px;
+  margin: 0;
+  padding-top: 0;
+  
+}
+/* .slider_i img {
+  height: 80px;
+} */
+
+label {
+  font-size: 2px;
+  padding-top: 0;
+  text-transform: none;
+  color: black;
+  
+}
+
+.MuiTab-root {
+  text-transform: none;
+  letter-spacing: 0;
+  line-height: 0;
+  font-family: sans-serif;
+}
+
+.MuiTab-textColorPrimary {
+  color: black;
+}
+
+.Tab {
+  text-transform: none;
+  
+}
+.slider_img{
+  height: 100px;
+  width: 100px;
+}

@@ -1,0 +1,19 @@
+.Image{
+    /* border-radius: 50%; */
+    box-shadow: 1px 1px 10px black;
+}
+.pro_img{
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+    /* margin-left: -20px; */
+   justify-content: center;
+}
+.imgwidth{
+    width: 100% !important;
+    height: fit-content;
+}
+.pro_container{
+    /* background-color: violet; */
+    display: flex;
+}
